@@ -10,12 +10,13 @@
 [node name="Main" type="Node2D"]
 position = Vector2( 0, -1 )
 
-[node name="Rose" type="Sprite" parent="."]
-position = Vector2( 175, 27 )
-texture = ExtResource( 2 )
+[node name="Map2" type="Sprite" parent="."]
+position = Vector2( 1026, 1030 )
+scale = Vector2( 32, 32 )
+texture = ExtResource( 3 )
 
 [node name="Rose2" type="Sprite" parent="."]
-position = Vector2( 129, 64 )
+position = Vector2( 112, 19 )
 texture = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
@@ -30,7 +31,7 @@ margin_right = 40.0
 margin_bottom = 40.0
 
 [node name="MapSprite" type="Sprite" parent="Map/Control"]
-position = Vector2( 31, 32 )
+position = Vector2( 32, 32 )
 texture = ExtResource( 3 )
 
 [node name="PlayerSprite" type="Sprite" parent="Map/Control"]
