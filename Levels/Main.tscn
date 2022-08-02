@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Art/rose.png" type="Texture" id=2]
+[ext_resource path="res://Assets/Map.png" type="Texture" id=3]
 
 [node name="Main" type="Node2D"]
 position = Vector2( 0, -1 )
@@ -16,3 +17,10 @@ texture = ExtResource( 2 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 31, 33 )
+
+[node name="Map" type="CanvasLayer" parent="."]
+
+[node name="MapSprite" type="Sprite" parent="Map"]
+visible = false
+position = Vector2( 31, 32 )
+texture = ExtResource( 3 )
