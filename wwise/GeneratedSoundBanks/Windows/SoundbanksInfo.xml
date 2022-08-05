@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/ncampodonico/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/LowRezJamWwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/ncampodonico/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/WwiseProjects/LowRezJamWwise/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/ncampodonico/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/LowRez/wwise/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>Y:\Documents\WwiseProjects\LowRezJamWwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="837375629">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>1355168291.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="1549583380">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>3991942870.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3991942870" Name="Music" ObjectPath="\Events\Default Work Unit\Music">
+					<IncludedMemoryFiles>
+						<File Id="163680966" Language="SFX">
+							<ShortName>Music_MainMenu_Verse_100bpm.wav</ShortName>
+							<Path>SFX/Music_MainMenu_Verse_100bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="412104528" Language="SFX">
+							<ShortName>Music_MainMenu_Climax_100bpm.wav</ShortName>
+							<Path>SFX/Music_MainMenu_Climax_100bpm_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1020570639" Language="SFX">
+							<ShortName>Music_MainMenu_Intro_100bpm.wav</ShortName>
+							<Path>SFX/Music_MainMenu_Intro_100bpm_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

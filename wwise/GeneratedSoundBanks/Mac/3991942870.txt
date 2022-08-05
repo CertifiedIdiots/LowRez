@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3991942870	Music			\Default Work Unit\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	163680966	Music_MainMenu_Verse_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Mac\SFX\Music_MainMenu_Verse_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Verse_100bpm\Music_MainMenu_Verse_100bpm		6551852
+	412104528	Music_MainMenu_Climax_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Mac\SFX\Music_MainMenu_Climax_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Climax_100bpm\Music_MainMenu_Climax_100bpm		8649004
+	1020570639	Music_MainMenu_Intro_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Mac\SFX\Music_MainMenu_Intro_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Intro_100bpm\Music_MainMenu_Intro_100bpm		8386860
+
