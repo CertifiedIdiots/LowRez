@@ -1,37 +1,18 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Art/minimap_test1.png" type="Texture" id=2]
-[ext_resource path="res://addons/wwise/runtime/nodes/ak_event.gd" type="Script" id=3]
 [ext_resource path="res://Assets/Player.png" type="Texture" id=4]
 [ext_resource path="res://Scripts/Map.gd" type="Script" id=5]
 [ext_resource path="res://Levels/PlayerSprite.gd" type="Script" id=6]
 [ext_resource path="res://autotile_test.tres" type="TileSet" id=7]
 [ext_resource path="res://Art/world flat bg.png" type="Texture" id=8]
-[ext_resource path="res://addons/wwise/runtime/nodes/ak_bank.gd" type="Script" id=9]
-[ext_resource path="res://addons/wwise/runtime/nodes/ak_listener.gd" type="Script" id=10]
 
 [node name="Main" type="Node2D"]
 __meta__ = {
 "_edit_horizontal_guides_": [  ],
 "_edit_vertical_guides_": [  ]
 }
-
-[node name="INIT SoundBank" type="Node" parent="."]
-script = ExtResource( 9 )
-bank = {
-"Id": 1355168291,
-"Name": "INIT"
-}
-load_on = 1
-
-[node name="Music Bank" type="Node" parent="."]
-script = ExtResource( 9 )
-bank = {
-"Id": 534561221,
-"Name": "MAINSOUNDBANK"
-}
-load_on = 1
 
 [node name="World" type="Sprite" parent="."]
 position = Vector2( 1024, 1024 )
@@ -45,21 +26,8 @@ format = 1
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1006, 1550 )
 
-[node name="AkListener" type="Spatial" parent="Player"]
-script = ExtResource( 10 )
-
 [node name="Map" type="CanvasLayer" parent="."]
 script = ExtResource( 5 )
-
-[node name="AkEvent" type="Spatial" parent="Map"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.532777, -0.396422, 0.647887 )
-script = ExtResource( 3 )
-event = {
-"Id": 2687048523,
-"Name": "EXPLOREMUSIC"
-}
-trigger_on = 3
-stop_on = 2
 
 [node name="Control" type="Control" parent="Map"]
 margin_right = 40.0

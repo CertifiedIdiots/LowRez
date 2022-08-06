@@ -8,33 +8,11 @@
 
 config_version=4
 
-_global_script_classes=[ {
-"base": "Reference",
-"class": "AK",
-"language": "GDScript",
-"path": "res://wwise/GeneratedSoundBanks/wwise_ids.gd"
-}, {
-"base": "Reference",
-"class": "AkUtils",
-"language": "GDScript",
-"path": "res://addons/wwise/runtime/helpers/ak_utils.gd"
-} ]
-_global_script_class_icons={
-"AK": "",
-"AkUtils": ""
-}
-
 [application]
 
 config/name="LowRez"
 run/main_scene="res://Levels/Main.tscn"
 config/icon="res://icon.png"
-
-[autoload]
-
-WwiseSettings="*res://addons/wwise/editor/wwise_settings.gd"
-Wwise="*res://addons/wwise/bin/wwise-gdnative.gdns"
-Waapi="*res://addons/wwise/bin/waapi-gdnative.gdns"
 
 [display]
 
@@ -44,10 +22,6 @@ window/size/test_width=640
 window/size/test_height=640
 window/stretch/mode="viewport"
 window/stretch/aspect="keep"
-
-[editor_plugins]
-
-enabled=PoolStringArray( "res://addons/wwise/plugin.cfg" )
 
 [global]
 
