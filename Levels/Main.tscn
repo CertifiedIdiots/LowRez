@@ -28,8 +28,8 @@ load_on = 1
 [node name="Music Bank" type="Node" parent="."]
 script = ExtResource( 9 )
 bank = {
-"Id": 3991942870,
-"Name": "MUSIC"
+"Id": 534561221,
+"Name": "MAINSOUNDBANK"
 }
 load_on = 1
 
@@ -51,11 +51,12 @@ script = ExtResource( 10 )
 [node name="Map" type="CanvasLayer" parent="."]
 script = ExtResource( 5 )
 
-[node name="Menu Music" type="Spatial" parent="Map"]
+[node name="AkEvent" type="Spatial" parent="Map"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.532777, -0.396422, 0.647887 )
 script = ExtResource( 3 )
 event = {
-"Id": 3991942870,
-"Name": "MUSIC"
+"Id": 2687048523,
+"Name": "EXPLOREMUSIC"
 }
 trigger_on = 3
 stop_on = 2

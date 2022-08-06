@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	679636833	MenuMusic			\Default Work Unit\MenuMusic	
+	2687048523	ExploreMusic			\Default Work Unit\ExploreMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	85568974	Music_Exploration_Harmonics_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_Exploration_Harmonics2_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_Harmonics_120BPM		7078032
+	163680966	Music_MainMenu_Verse_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_MainMenu_Verse_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Verse_100bpm\Music_MainMenu_Verse_100bpm		6551852
+	317270287	Music_Exploration_CryoLayer_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\AmbientMusic\Music_Exploration_CryoLayer_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_CryoLayer_120BPM		5767312
+	372745685	Music_Exploration_DensePad_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_Exploration_NormalPad_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_DensePad_120BPM		6553744
+	412104528	Music_MainMenu_Climax_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_MainMenu_Climax_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Climax_100bpm\Music_MainMenu_Climax_100bpm		8649004
+	542030847	Music_Exploration_DustLead_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_Exploration_DustLead2_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_DustLead_120BPM		6029456
+	555623257	Music_Exploration_DensePad_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_Exploration_DensePad2_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_DensePad_120BPM		6815888
+	687422390	Music_Exploration_DustLead_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\AmbientMusic\Music_Exploration_DustLead_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_DustLead_120BPM		6291600
+	747461627	Music_Exploration_Harmonics_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\AmbientMusic\Music_Exploration_Harmonics_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_Harmonics_120BPM		7078032
+	953687343	Music_Exploration_INTRO_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_Exploration_INTRO_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\Music_Exploration_INTRO_120BPM\Music_Exploration_INTRO_120BPM		5505168
+	1020570639	Music_MainMenu_Intro_100bpm	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\Music_MainMenu_Intro_100bpm_D79FB2B7.wem		\Interactive Music Hierarchy\Music\MainMenu\Music_MainMenu_Intro_100bpm\Music_MainMenu_Intro_100bpm		8386860
+	1037841304	Music_Exploration_DensePad_120BPM	Y:\Documents\WwiseProjects\LowRezJamWwise\.cache\Windows\SFX\AmbientMusic\Music_Exploration_DensePad_120BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Explore\AmbientMusic\Music_Exploration_DensePad_120BPM		6815888
+

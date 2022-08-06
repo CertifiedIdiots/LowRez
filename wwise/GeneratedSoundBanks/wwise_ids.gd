@@ -2,10 +2,12 @@ class_name AK
 
 class EVENTS:
 
-	const MUSIC = 3991942870 
+	const MENUMUSIC = 679636833 
+	const EXPLOREMUSIC = 2687048523 
 
 	const _dict = { 
-	 "MUSIC": MUSIC
+	 "MENUMUSIC": MENUMUSIC,
+	 "EXPLOREMUSIC": EXPLOREMUSIC
 	} 
 
 class STATES:
@@ -27,11 +29,11 @@ class TRIGGERS:
 class BANKS:
 
 	const INIT = 1355168291 
-	const MUSIC = 3991942870 
+	const MAINSOUNDBANK = 534561221 
 
 	const _dict = { 
 	 "INIT": INIT,
-	 "MUSIC": MUSIC
+	 "MAINSOUNDBANK": MAINSOUNDBANK
 	} 
 
 class BUSSES:
