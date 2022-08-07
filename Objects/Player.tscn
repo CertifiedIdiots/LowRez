@@ -30,14 +30,14 @@ current = true
 stream = ExtResource( 3 )
 volume_db = -15.646
 
-[node name="ToneA" type="AudioStreamPlayer" parent="."]
+[node name="tone_a" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 4 )
 
-[node name="ToneB" type="AudioStreamPlayer" parent="."]
+[node name="tone_b" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
 
-[node name="ToneC" type="AudioStreamPlayer" parent="."]
+[node name="tone_c" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )
 
-[node name="ToneD" type="AudioStreamPlayer" parent="."]
+[node name="tone_d" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 6 )
