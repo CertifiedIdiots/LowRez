@@ -1,9 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Levels/PlayerSprite.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/PlayerSprite.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/Map.gd" type="Script" id=2]
 [ext_resource path="res://Assets/Player.png" type="Texture" id=3]
 [ext_resource path="res://Art/minimap_test1.png" type="Texture" id=4]
+
 
 [node name="Map" type="CanvasLayer"]
 script = ExtResource( 2 )
