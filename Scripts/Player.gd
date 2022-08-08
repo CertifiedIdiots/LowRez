@@ -6,6 +6,7 @@ var velocity = Vector2.ZERO
 var notes = {
 
 }
+var target = null
 
 func _physics_process(delta):
 	velocity = Input.get_vector("move_left", "move_right", "move_up", "move_down") * speed
@@ -16,6 +17,9 @@ func _physics_process(delta):
 		$Sprite.flip_h = false
 
 func _process(delta):
+	if $Prompt.visible and Input.is_action_just_pressed("prompt"):
+		target.prompt(self)
+		
 	if unlocked_map and Input.is_action_just_pressed("map"):
 		var map = get_parent().get_node("Map")
 		map.toggle()
