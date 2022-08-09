@@ -14,12 +14,6 @@ config/name="LowRez"
 run/main_scene="res://Levels/Main.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-WwiseSettings="*res://addons/wwise/editor/wwise_settings.gd"
-Wwise="*res://addons/wwise/bin/wwise-gdnative.gdns"
-Waapi="*res://addons/wwise/bin/waapi-gdnative.gdns"
-
 [display]
 
 window/size/width=64
