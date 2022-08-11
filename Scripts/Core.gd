@@ -1,6 +1,9 @@
 extends Sprite
 
-var rune_a = load("res://Art/Animations/runes/rune_A2_small.png") 
+var rune_a = load("res://Art/Animations/runes/rune_A2_small.png")
+var rune_b = load("res://Art/Animations/runes/rune_B2_small.png") 
+var rune_c = load("res://Art/Animations/runes/rune_C2_small.png") 
+var rune_d = load("res://Art/Animations/runes/rune_D2_small.png") 
 
 func _ready():
 	 get_parent().get_node("Player").connect("sequence_played", self, "_on_sequence_played") 
@@ -22,4 +25,11 @@ func _on_sequence_played(player: Node2D, sequence: String):
 	if (player.position - self.position).length() < 40:
 		if "a" in sequence:
 			$A.texture = rune_a
+		if "b" in sequence:
+			$B.texture = rune_b
+		if "c" in sequence:
+			$C.texture = rune_c
+		if "d" in sequence:
+			$D.texture = rune_d
+		
 	
