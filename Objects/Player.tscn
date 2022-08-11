@@ -68,7 +68,7 @@ anims/Walking = SubResource( 11 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
-frame = 2
+frame = 6
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

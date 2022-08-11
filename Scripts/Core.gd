@@ -24,12 +24,12 @@ func prompt(player):
 func _on_sequence_played(player: Node2D, sequence: String):
 	if (player.position - self.position).length() < 40:
 		if "a" in sequence:
-			$A.texture = rune_a
+			$A.play()
 		if "b" in sequence:
-			$B.texture = rune_b
+			$B.play()
 		if "c" in sequence:
-			$C.texture = rune_c
+			$C.play()
 		if "d" in sequence:
-			$D.texture = rune_d
+			$D.play()
 		
 	
