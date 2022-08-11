@@ -30,8 +30,7 @@ func _process(delta):
 		var map = get_parent().get_node("Map")
 		map.toggle()
 	
-	if unlocked_map:
-		play_notes(delta)
+	play_notes(delta)
 
 func play_notes(delta):
 	since_played += delta
@@ -45,7 +44,7 @@ func play_notes(delta):
 			notes[note] = 1
 			since_played = 0
 			sequence += note
-			emit_signal("sequence_played", sequence)
+			emit_signal("sequence_played", self, sequence)
 	if since_played >= 1.5:
 		sequence = ""
 

@@ -61,13 +61,15 @@ height = 4.0
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 2 )
-speed = 50
+speed = 25
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 anims/Walking = SubResource( 11 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
+frame = 2
+playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 3 )
