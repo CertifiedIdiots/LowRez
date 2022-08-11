@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Art/minimap_test1.png" type="Texture" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://autotile_test.tres" type="TileSet" id=7]
 [ext_resource path="res://Art/world flat bg.png" type="Texture" id=8]
 [ext_resource path="res://Objects/Core.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Art/Animations/core/core0.png" type="Texture" id=10]
 
 [node name="Main" type="Node2D"]
 __meta__ = {
@@ -51,4 +52,7 @@ script = ExtResource( 6 )
 [node name="Sprite" type="Sprite" parent="Map/Control"]
 
 [node name="Core" parent="." instance=ExtResource( 9 )]
-position = Vector2( 1026, 1098 )
+position = Vector2( 1025, 1027 )
+
+[node name="Sprite" type="Sprite" parent="Core"]
+texture = ExtResource( 10 )
