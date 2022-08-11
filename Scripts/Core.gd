@@ -11,3 +11,4 @@ func _on_Core_body_exited(player):
 func prompt(player):
 	player.unlocked_map = true
 	player.get_node("Prompt").visible = false
+	get_parent().get_node("Map").toggle()

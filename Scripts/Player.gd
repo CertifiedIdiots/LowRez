@@ -4,16 +4,22 @@ var unlocked_map = false
 export var speed = 30
 var velocity = Vector2.ZERO
 var notes = {
-
+	"a": 0,
+	"b": 0,
+	"c": 0,
+	"d": 0
 }
+var sequence = ""
 var target = null
+var since_played = 0
+signal sequence_played
 
 func _physics_process(delta):
 	velocity = Input.get_vector("move_left", "move_right", "move_up", "move_down") * speed
 	velocity = move_and_slide(velocity)
-	if velocity.x > 0:
+	if velocity.x < 0:
 		$Sprite.flip_h = true
-	elif velocity.x < 0:
+	elif velocity.x > 0:
 		$Sprite.flip_h = false
 
 func _process(delta):
@@ -24,15 +30,24 @@ func _process(delta):
 		var map = get_parent().get_node("Map")
 		map.toggle()
 	
+	if unlocked_map:
+		play_notes(delta)
+
+func play_notes(delta):
+	since_played += delta
 	for note in notes.keys():
 		notes[note] = notes[note] - delta
-		if notes[note] <= 0:
+		if notes[note] <= 0 and !Input.is_action_pressed(note):
 			notes[note] = 0
 			get_node(note).stop()
 		if Input.is_action_just_pressed(note):
 			get_node(note).play()
 			notes[note] = 1
-		AB()
+			since_played = 0
+			sequence += note
+			emit_signal("sequence_played", sequence)
+	if since_played >= 1.5:
+		sequence = ""
 
 # SEQUENCES
 func AB():
