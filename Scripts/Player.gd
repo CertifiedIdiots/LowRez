@@ -4,15 +4,16 @@ var unlocked_map = false
 export var speed = 30
 var velocity = Vector2.ZERO
 var notes = {
-	"a": 0,
-	"b": 0,
-	"c": 0,
-	"d": 0
+	"A": 0,
+	"B": 0,
+	"C": 0,
+	"D": 0
 }
 var sequence = ""
 var target = null
 var since_played = 0
 signal sequence_played
+signal note_played
 
 func _physics_process(delta):
 	velocity = Input.get_vector("move_left", "move_right", "move_up", "move_down") * speed
@@ -45,6 +46,7 @@ func play_notes(delta):
 			since_played = 0
 			sequence += note
 			emit_signal("sequence_played", self, sequence)
+			emit_signal("note_played", self, note)
 	if since_played >= 1.5:
 		sequence = ""
 
