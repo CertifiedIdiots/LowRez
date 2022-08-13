@@ -8,7 +8,7 @@ var runes = {
 }
 
 func _ready():
-	 get_parent().get_node("Player").connect("note_played", self, "_on_sequence_played") 
+	 get_parent().get_node("Player").connect("note_played", self, "_on_note_played") 
 
 func _process(delta):
 	for rune in runes.keys():
@@ -29,9 +29,9 @@ func prompt(player):
 	player.get_node("Prompt").visible = false
 	get_parent().get_node("Map").toggle()
 
-func _on_sequence_played(player: Node2D, sequence: String):
+func _on_note_played(player: Node2D, sequence: String):
 	if (player.position - self.position).length() < 40:
 		for rune in runes.keys():
 			if rune in sequence:
-				runes[rune] = 1
+				runes[rune] = 0.5
 				get_node(rune).play()

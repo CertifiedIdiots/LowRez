@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Objects/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Objects/Map.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Objects/Door.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Objects/Stairs.tscn" type="PackedScene" id=4]
 [ext_resource path="res://autotile_test.tres" type="TileSet" id=7]
 [ext_resource path="res://Art/world flat bg.png" type="Texture" id=8]
 [ext_resource path="res://Objects/Core.tscn" type="PackedScene" id=9]
@@ -27,6 +28,9 @@ position = Vector2( 950, 1554 )
 
 [node name="Core" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1025, 1027 )
+
+[node name="Stairs" parent="." instance=ExtResource( 4 )]
+position = Vector2( 959, 1087 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 position = Vector2( 1015, 1090 )
