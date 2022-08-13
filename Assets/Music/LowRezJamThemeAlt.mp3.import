@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/LowRezJamThemeAlt.mp3-4693858df899f41c28b75d0d9edc7a9c.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/LowRezJamThemeAlt.mp3"
+dest_files=[ "res://.import/LowRezJamThemeAlt.mp3-4693858df899f41c28b75d0d9edc7a9c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=27.0

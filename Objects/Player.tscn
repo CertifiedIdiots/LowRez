@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Art/Tiny.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Player.gd" type="Script" id=2]
-[ext_resource path="res://Assets/Music/LowRezJamTheme.mp3" type="AudioStream" id=3]
+[ext_resource path="res://Assets/Music/LowRezJamThemeAlt.mp3" type="AudioStream" id=3]
 [ext_resource path="res://Assets/SFX/Puzzle_Tone_1.wav" type="AudioStream" id=4]
 [ext_resource path="res://Assets/SFX/Puzzle_Tone_2.wav" type="AudioStream" id=5]
 [ext_resource path="res://Assets/SFX/Puzzle_Tone_4.wav" type="AudioStream" id=6]
@@ -41,7 +41,6 @@ anims/Walking = SubResource( 11 )
 
 [node name="Sprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
-frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
