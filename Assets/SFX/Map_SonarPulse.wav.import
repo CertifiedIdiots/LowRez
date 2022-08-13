@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Map_SonarPulse.wav-c6b34d2e4e7f0896107c602b1edccee0.sample"
+
+[deps]
+
+source_file="res://Assets/SFX/Map_SonarPulse.wav"
+dest_files=[ "res://.import/Map_SonarPulse.wav-c6b34d2e4e7f0896107c602b1edccee0.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

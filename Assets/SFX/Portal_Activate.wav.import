@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Portal_Activate.wav-b4714c582497b3fc012b08448968a581.sample"
+
+[deps]
+
+source_file="res://Assets/SFX/Portal_Activate.wav"
+dest_files=[ "res://.import/Portal_Activate.wav-b4714c582497b3fc012b08448968a581.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

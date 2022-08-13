@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Stair.wav-24da1352f158725acb42bae21ee2eb0b.sample"
+
+[deps]
+
+source_file="res://Assets/SFX/Stair.wav"
+dest_files=[ "res://.import/Stair.wav-24da1352f158725acb42bae21ee2eb0b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

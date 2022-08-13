@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Scripts/Core.gd" type="Script" id=1]
 [ext_resource path="res://Art/Animations/core/core0.png" type="Texture" id=2]
@@ -14,6 +14,7 @@
 [ext_resource path="res://Art/Animations/runes/rune_A1_small.png" type="Texture" id=12]
 [ext_resource path="res://Art/Animations/runes/rune_D2_small.png" type="Texture" id=13]
 [ext_resource path="res://Art/Animations/runes/rune_C2_small.png" type="Texture" id=14]
+[ext_resource path="res://Assets/SFX/Core.wav" type="AudioStream" id=15]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -66,3 +67,15 @@ frames = SubResource( 3 )
 [node name="D" type="AnimatedSprite" parent="."]
 position = Vector2( 6, 25 )
 frames = SubResource( 4 )
+
+[node name="Core Ambience" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 0, -10 )
+stream = ExtResource( 15 )
+autoplay = true
+max_distance = 73.0
+attenuation = 1.7411
+bus = "SFX"
+__meta__ = {
+"_editor_description_": "Emits sound based on proximity to center of orb
+ "
+}
